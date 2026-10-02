@@ -5,6 +5,9 @@ Main Streamlit application entry point for the Singapore Silver Support Scheme A
 Handles base page configuration, session state initialization, sidebar controls,
 and tab navigation routing.
 """
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 from src.rules import evaluate_silver_support_eligibility

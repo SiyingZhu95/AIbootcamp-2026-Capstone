@@ -1,8 +1,11 @@
-streamlit
-google-genai
-langchain
+streamlit>=1.35.0
+langchain>=0.1.0
+langchain-core
 langchain-community
-langchain-text-splitters
 langchain-google-genai
-langchain-chroma
+google-generativeai
+chromadb
 pypdf
+pdfplumber
+graphviz
+pysqlite3-binary
