@@ -1,0 +1,25 @@
+# Streamlit secrets (contains API keys)
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# VS Code user settings and history
+.vscode/
+
+#Testing files
+test*.py
